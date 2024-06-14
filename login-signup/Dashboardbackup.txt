@@ -1,0 +1,57 @@
+import React from 'react'
+import DashboardNavbar from '../DashboardNavbar/DashboardNavbar'
+import Card from '../Card/Card'
+import './Dashboard.css'
+function Dashboard(){
+    return (
+        <div className='Dashboardbody'>
+            <DashboardNavbar></DashboardNavbar>
+            <div className='welcome'>
+                <div className='start'>Welcome to Library Books Collection</div>
+                </div>
+            <div className='overall'>
+            <Card
+            title='Introduction Database Systems'
+            body='Edition: 7th Edition'/>
+            <Card
+            title='Introduction Database Systems'
+            body='Edition: 7th Edition'/>
+            <Card
+            title='Introduction Database Systems'
+            body='Edition: 7th Edition'/>
+            <Card
+            title='Introduction Database Systems'
+            body='Edition: 7th Edition'/>
+            <Card
+            title='Introduction Database Systems'
+            body='Edition: 7th Edition'/>
+            <Card
+            title='Introduction Database Systems'
+            body='Edition: 7th Edition'/>
+            <Card
+            title='Introduction Database Systems'
+            body='Edition: 7th Edition'/>
+            <Card
+            title='Introduction Database Systems'
+            body='Edition: 7th Edition'/>
+            <Card
+            title='Introduction Database Systems'
+            body='Edition: 7th Edition'/>
+            <Card
+            title='Introduction Database Systems'
+            body='Edition: 7th Edition'/>
+            <Card
+            title='Introduction Database Systems'
+            body='Edition: 7th Edition'/>
+            <Card
+            title='Introduction Database Systems'
+            body='Edition: 7th Edition'/>
+            
+            
+            </div> 
+            
+        </div>
+    )
+}
+
+export default Dashboard

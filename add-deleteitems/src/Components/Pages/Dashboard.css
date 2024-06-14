@@ -1,0 +1,46 @@
+.Dashboardbody{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height:200vh;
+    background: linear-gradient(#2A00B7,#42006C);
+    background-image: url(/src/Components/Assets/library_inside.jpg);
+    background-size: 2400px 1200px;
+    
+  }
+
+  .welcome{
+    margin: auto;
+    background-color: #2A00B7;
+    color: white;
+    font-weight: bold;
+    width: 400px;
+    height: 40px;
+    align-items: center;
+    margin-left: 27cm;
+    border-radius: 10px;
+  }
+
+  .start{
+    padding-left: 30px;
+    font-size: 20px;
+    padding-top: 5px;
+
+  }
+  .overall{
+    display: grid;
+    grid-template-rows: 400px 400px 400px 400px 400px;
+    grid-template-columns: 400px 400px 400px 400px 400px;
+
+  }
+
+  .item-2{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+  }

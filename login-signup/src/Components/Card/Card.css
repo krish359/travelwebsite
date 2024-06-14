@@ -1,0 +1,91 @@
+.card-container{
+  width: 400px;
+  height: 600px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -5px;
+  background-color: white;
+  transition: 0.3s;
+  animation: ease-in;
+  margin-left: 2cm;
+  margin-top: 2cm;
+
+}
+
+.card-container:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+    border: 5px solid yellow;
+    overflow: hidden;
+
+}
+
+.image-contain img{
+   height:350px;
+   width: 400px;
+   overflow: hidden;
+}
+
+.card-content{
+    margin: 1rem;
+    margin-top: 0.5rem;
+
+}
+
+h3,p{
+    /* resetting default values */
+    margin: 0;
+    padding: 0;
+}
+
+.card-title{
+    margin-bottom: 0.5rem;
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+    
+}
+
+.zoro{
+    padding: 0.5 rem;
+    color: white;
+    background-color: blue;
+    border: 30px black;
+    transition: 0.2s;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+    padding-left: 10px;
+    width: 140px;
+    height: 40px;
+    margin-left: 100px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.zoro:hover{
+    background-color: blue;
+    transform: scale(1.1);
+}
+
+a{
+    text-transform: uppercase;
+    color: #1B9CFC;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.overall{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 500px 500px 500px 500px;
+}
+.qbutton{
+    display: flex;
+    padding-top: 5px;
+}

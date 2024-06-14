@@ -1,0 +1,15 @@
+.details{
+    margin-left: 60px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.co{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 600px;
+    margin-top: 100px;
+    background: #fff;
+    padding-bottom: 10px;
+   
+}

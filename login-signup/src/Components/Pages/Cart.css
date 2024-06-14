@@ -1,0 +1,111 @@
+.flex{
+    display: flex;
+    gap: 2px;
+    
+}
+.zor{
+    padding: 0.5 rem;
+    color: white;
+    background-color: blue;
+    border: 30px black;
+    transition: 0.2s;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+    padding-left: 10px;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 30px;
+
+}
+
+.submitborrowtrue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700px;
+    cursor: pointer;
+    
+}
+
+.submitborrowfalse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: white;
+    background: black;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700px;
+    cursor: pointer;
+   
+    
+    
+}
+
+.selec{
+  display: flex;
+  gap: 30px;
+  margin-left: 23cm;
+  margin-top: 0.5cm;
+}
+
+.submitborrowtrue:hover {
+    background-color: blue;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .submitborrowfalse:hover {
+    background-color: blue;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+.noitemscontainer{
+    width: 400px;
+    height: 1.5cm;
+    background-color: transparent;
+    margin-left: 23cm;
+    margin-top: 0.8cm;
+    align-items: center;
+    margin-bottom: 0.5cm;
+}
+  .noitems{
+    
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    padding-left: 15px;
+    padding-top: 10px;
+    
+  }
+  input[type='date']{
+    background-color: #0080ff;
+    padding: 15px;
+    transform: translate(-50%,-50%);
+    font-family: "Roboto Mono",monospace;
+    color: #ffff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+   margin-left: 2.5cm;
+   margin-top: 1cm;
+
+  }
+  ::-webkit-calendar-picker-indicator{
+    background-color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+
+  }

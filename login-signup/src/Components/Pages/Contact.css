@@ -1,0 +1,25 @@
+.contact-container{
+    width:600px;
+    margin-top: 5cm;
+    background-color: blue;
+    margin-left: 19cm;
+    padding-left: 5cm;
+    padding-bottom: 90px;
+    padding-top:40px;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-heading{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    padding-left: 80px;
+  }
+  .underlin{
+    width: 200px;
+    height: 6px;
+    background: white;
+    border-radius: 2px;
+    margin-left: 2.2cm;
+}

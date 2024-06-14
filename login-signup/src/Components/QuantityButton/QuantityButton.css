@@ -1,0 +1,44 @@
+.quantitybutton{
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+}
+.increment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 40px;
+    color: #fff;
+    background: green;
+    
+    font-size: 19px;
+    font-weight: 700px;
+    cursor: pointer;
+}
+.decrement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 40px;
+    color: #fff;
+    background: red;
+   
+    font-size: 19px;
+    font-weight: 700px;
+    cursor: pointer;
+}
+.presentquantity{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 40px;
+        color: black;
+        background: white;
+        
+        font-size: 19px;
+        font-weight: 700px;
+        cursor: pointer;
+}

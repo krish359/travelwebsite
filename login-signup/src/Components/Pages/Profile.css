@@ -1,0 +1,37 @@
+input[type="radio"]{
+    transform: scale(1.5);
+   color: blue;
+}
+input[type="checkbox"]{
+    transform: scale(1.5);
+   color: blue;
+}
+#specifyColor{
+    accent-color: blue;
+}
+.imput{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+    gap: 30px;
+    padding-left: 10px;
+}
+.imput:hover{
+    border: 5px solid blue;
+    overflow: hidden;
+}
+.profilephoto{
+    width: 8cm;
+    height: 8cm;
+    margin-left: 25cm;
+    margin-bottom: 1cm;
+    border-radius: 5cm;
+}
+.star{
+    cursor: pointer;
+    
+  }

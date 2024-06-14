@@ -1,0 +1,19 @@
+.world{
+    color:blue;
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 50cm;
+    width: 150px;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+.underline{
+    width: 120px;
+    height: 6px;
+    background: blue;
+    border-radius: 2px;
+    margin-top: 5px;
+}
